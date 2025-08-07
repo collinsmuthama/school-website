@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The St. Rita Evergreen Schools - Gallery</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/gallery_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/gallery_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo">
+					<img src="images/logo.jpeg" alt="" height="100px" weight="80px">
+					<span>The St. Rita Evergreen Schools</span>
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.html">home</a></li>
+						<li class="main_nav_item"><a href="about.html">about </a></li>
+						<li class="main_nav_item"><a href="#">Gallery</a></li>
+						<li class="main_nav_item"><a href="admission.html">Admission</a></li>
+						<li class="main_nav_item"><a href="contact.html">contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header_side d-flex flex-row justify-content-center align-items-center">
+			<a  href="donation.html" class="donate_btn">DONATE</a>
+		</div>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<i class="fas fa-bars trans_200"></i>
+		</div>
+
+	</header>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
+					<li class="menu_item menu_mm"><a href="about.html">About</a></li>
+					<li class="menu_item menu_mm"><a href="#">Gallery</a></li>
+					<li class="menu_item menu_mm"><a href="admission.html">Admission</a></li>
+					<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
+				</ul>
+
+				<!-- Menu Social -->
+				
+				<div class="menu_social_container menu_mm">
+					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="menu_copyright menu_mm">The St. Rita Evergreen Schools All rights reserved</div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(images/courses_background.jpg)"></div>
+		</div>
+		<div class="home_content">
+			<h1>Gallery</h1>
+		</div>
+	</div>
+
+	<!-- Popular -->
+
+	<div class="popular page_section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>Our Gallery</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row course_boxes">
+				
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box">
+					<div class="card">
+						<img class="card-img-top" src="photos/DSC_0008.JPG" alt="https://unsplash.com/@kellybrito" onclick="openModal(0)">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="courses.html">Photo Album of Our School</a></div>
+							<div class="card-text">Click on the thumb nails to zoom and view album photos in there largest size</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_name">Total photos</div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span id="school"></span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box">
+					<div class="card">
+						<img class="card-img-top" src="photos/DSC_0127.JPG" alt="https://unsplash.com/@cikstefan" onclick="openModal1(0)">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="courses.html">Prayers</a></div>
+							<div class="card-text">Don't underestimate the peace and strength that prayer brings, take a moment to pray. 
+							God is always listening</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_name">Total photos in the album</div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span id="prayers"></span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box">
+					<div class="card">
+						<img class="card-img-top" src="photos/DSC_0097.JPG" alt="https://unsplash.com/@dsmacinnes" onclick="openModal2(0)">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="courses.html">Environment Day</a></div>
+							<div class="card-text">Plant a tree, plant hope. Every tree you plant is a gift to future generations — a legacy of life, shade, and clean air..</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_name">Total photos in the album</div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span id="env_day"></span></div>
+						</div>
+					</div>
+				</div>
+
+					<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box">
+					<div class="card">
+						<img class="card-img-top" src="photos/fam1.JPEG" alt="https://unsplash.com/@dsmacinnes" onclick="openModal3(0)">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="courses.html">Family Time</a></div>
+							<div class="card-text">Often held to reconnect, celebrate, or simply enjoy each other’s company.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_name">Total photos in the album</div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span id="family_time"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			  <!-- Modal 1 -->
+			<div id="myModal" class="modal">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+				<span class="next" onclick="changeSlide(1)">&#10095;</span>
+				<div class="modal-content">
+				<img id="modalImage" src="">
+				</div>
+			</div>
+			  <!-- Modal 2 -->
+			<div id="myModal1" class="modal">
+				<span class="close" onclick="closeModal1()">&times;</span>
+				<span class="prev" onclick="changeSlide1(-1)">&#10094;</span>
+				<span class="next" onclick="changeSlide1(1)">&#10095;</span>
+				<div class="modal-content">
+				<img id="modalImage1" src="">
+				</div>
+			</div>
+			  <!-- Modal 3 -->
+			<div id="myModal2" class="modal">
+				<span class="close" onclick="closeModal2()">&times;</span>
+				<span class="prev" onclick="changeSlide2(-1)">&#10094;</span>
+				<span class="next" onclick="changeSlide2(1)">&#10095;</span>
+				<div class="modal-content">
+				<img id="modalImage2" src="">
+				</div>
+			</div>
+
+				  <!-- Modal 3 -->
+			<div id="myModal3" class="modal">
+				<span class="close" onclick="closeModal3()">&times;</span>
+				<span class="prev" onclick="changeSlide3(-1)">&#10094;</span>
+				<span class="next" onclick="changeSlide3(1)">&#10095;</span>
+				<div class="modal-content">
+				<img id="modalImage3" src="">
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			
+			<!-- Newsletter -->
+
+			<div class="newsletter">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Subscribe to newsletter</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col text-center">
+						<div class="newsletter_form_container mx-auto">
+							<form action="post">
+								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+									<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
+									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-3 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/logo.jpeg" alt="" height="80" width="100">
+								<span>The st rita evergreen schools</span>
+							</div>
+						</div>
+						<p class="footer_about_text">
+							<b class="motto">ACADEMIA EXCELSIA</b>
+						</p>
+						
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="col-lg-2 footer_col">
+						<div class="footer_column_title">Menu</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html">Home</a></li>
+								<li class="footer_list_item"><a href="about">About</a></li>
+								<li class="footer_list_item"><a href="gallery.html">Gallery</a></li>
+								<li class="footer_list_item"><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Usefull Links</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="testimonials.html">Testimonials</a></li>
+								<li class="footer_list_item"><a href="faq.html">FAQ</a></li>
+								<li class="footer_list_item"><a href="#">Community</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-4 footer_col">
+						<div class="footer_column_title">Contact</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									Nyahururu -13Km on Nyahururu-Nyeri Road
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									+254 721 101 249/+254 731 521 306
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>thestritaevergreenschools@gmail.com
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+		<div class="footer_copyright">
+					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script>All rights reserved | This website is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">The St Rita Evergreen Schools</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>
+				<div class="footer_social ml-sm-auto">
+					<ul class="menu_social">
+						<li class="menu_social_item">
+							<a href="#">
+								<img src="photos/tiktok.webp" alt="TikTok" width="32" height="32">
+							</a>
+						</li>
+						<li class="menu_social_item">
+							<a href="#">
+								<img src="photos/youtube.png" alt="youtube" width="22" height="22">
+							</a>
+						</li>
+						<li class="menu_social_item">
+							<a href="https://www.facebook.com/profile.php?id=61576938981889">
+									<img src="photos/facebook.jpg" alt="youtube" width="22" height="22">
+							</a>
+							</li>
+						<li class="menu_social_item">
+							<a href="https://www.instagram.com/thestrita?utm_source=qr&igsh=cHpxYjA3eHZ5czhl">
+								<img src="photos/IG.jpg" alt="youtube" width="22" height="22">
+							</a>
+						</li>
+						<li class="menu_social_item">
+							<a href="https://x.com/StRitaEvergreen">
+								<img src="photos/x.png" alt="youtube" width="22" height="22">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/courses_custom.js"></script>
+<script>
+	const cat_images = [
+		"photos/DSC_0008.JPG",
+		"photos/DSC_0010.JPG",
+		"photos/DSC_0011.JPG",
+		"photos/DSC_0014.JPG",
+		"photos/DSC_0016.JPG",
+		"photos/DSC_0017.JPG",
+		"photos/DSC_0019.JPG",
+		"photos/DSC_0020.JPG",
+		"photos/DSC_0026.JPG",
+		"photos/DSC_0027.JPG",
+		"photos/DSC_0028.JPG",
+		"photos/DSC_0029.JPG",
+		"photos/DSC_0030.JPG",
+		"photos/DSC_0031.JPG",
+	];
+
+	const school_photos_count = cat_images.length
+	console.log(school_photos_count)
+	document.getElementById('school').innerText = school_photos_count
+
+	const cat1_images = [
+		"photos/DSC_0058.JPG",
+		"photos/DSC_0059.JPG",
+		"photos/DSC_0060.JPG",
+		"photos/DSC_0061.JPG",
+		"photos/DSC_0062.JPG",
+		"photos/DSC_0063.JPG",
+		"photos/DSC_0064.JPG",
+		"photos/DSC_0065.JPG",
+		"photos/DSC_0066.JPG",
+		"photos/DSC_0067.JPG",
+		"photos/DSC_0068.JPG",
+		"photos/DSC_0069.JPG",
+		"photos/DSC_0070.JPG",
+		"photos/DSC_0071.JPG",
+		"photos/DSC_0072.JPG",
+		"photos/DSC_0073.JPG",
+		"photos/DSC_0074.JPG",
+		"photos/DSC_0127.JPG",
+		"photos/DSC_0125.JPG",
+		"photos/DSC_0134.JPG",
+		"photos/DSC_0238.JPG",
+		"photos/DSC_0113.JPG",
+		"photos/DSC_0040.JPG",
+		"photos/DSC_0113.JPG",
+		"photos/DSC_0114.JPG",
+		"photos/DSC_0115.JPG",
+		"photos/DSC_0116.JPG",
+		"photos/DSC_0117.JPG",
+		"photos/DSC_0118.JPG",
+		"photos/DSC_0119.JPG",
+	];
+
+	const prayers_photos_count  = cat1_images.length;
+	document.getElementById('prayers').innerText = prayers_photos_count;
+
+
+	const cat2_images = [
+       'photos/DSC_0088.JPG',
+	    'photos/DSC_0089.JPG',
+		'photos/DSC_0090.JPG',
+		'photos/DSC_0091.JPG',
+		'photos/DSC_0092.JPG',
+		'photos/DSC_0095.JPG',
+		'photos/DSC_0096.JPG',
+		'photos/DSC_0097.JPG',
+		'photos/DSC_0098.JPG',
+		'photos/DSC_0099.JPG',
+		'photos/DSC_0100.JPG',
+		'photos/DSC_0101.JPG',
+		'photos/DSC_0102.JPG',
+		'photos/DSC_0103.JPG',
+		'photos/DSC_0104.JPG',
+		'photos/DSC_0105.JPG',
+		'photos/DSC_0106.JPG',
+		'photos/DSC_0107.JPG',
+		'photos/DSC_0108.JPG',
+		'photos/DSC_0109.JPG',
+		'photos/DSC_0110.JPG',
+		'photos/DSC_0111.JPG',
+		'photos/DSC_0112.JPG',
+	]
+
+	const environment_photos_count  = cat2_images.length;''
+	document.getElementById("env_day").innerText = environment_photos_count;
+
+	const cat3_images = [
+		'photos/fam2.JPEG',
+		'photos/fam3.JPEG',
+		'photos/fam4.JPEG',
+		'photos/fam5.JPEG',
+		'photos/fam6.JPEG',
+		'photos/fam7.JPEG',
+		'photos/fam8.JPEG',
+		'photos/fam9.JPEG',
+		'photos/fam10.JPEG',
+		'photos/fam11.JPEG',
+		'photos/fam12.JPEG',
+		'photos/fam13.JPEG',
+		'photos/fam14.JPEG',
+		'photos/fam15.JPEG',
+		'photos/fam16.JPEG',
+		'photos/fam17.JPEG',
+		'photos/fam18.JPEG',
+	]
+
+	const family_photos_count  = cat3_images.length;
+	document.getElementById('family_time').innerText = family_photos_count
+
+
+
+
+    let currentIndex = 0;
+
+    function openModal(index) {
+          currentIndex = index;
+		  document.getElementById("myModal").style.display = "block";
+		  showImage();
+    }
+
+	function openModal1(index) {
+          currentIndex = index;
+		  document.getElementById("myModal1").style.display = "block";
+		  showImage1();
+    }
+
+	function openModal2(index) {
+          currentIndex = index;
+		  document.getElementById("myModal2").style.display = "block";
+		  showImage2();
+    }
+
+	function openModal3(index) {
+          currentIndex = index;
+		  document.getElementById("myModal3").style.display = "block";
+		  showImage3();
+    }
+
+
+
+
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+
+	 function closeModal1() {
+      document.getElementById("myModal1").style.display = "none";
+    }
+
+	function closeModal2() {
+      document.getElementById("myModal2").style.display = "none";
+    }
+
+	function closeModal3() {
+      document.getElementById("myModal3").style.display = "none";
+    }
+
+    function changeSlide(n) {
+      currentIndex = (currentIndex + n + cat_images.length) % cat_images.length;
+      showImage();
+    }
+
+	function changeSlide1(n) {
+      currentIndex = (currentIndex + n + cat1_images.length) % cat1_images.length;
+      showImage1();
+    }
+
+	function changeSlide2(n) {
+      currentIndex = (currentIndex + n + cat2_images.length) % cat2_images.length;
+      showImage2();
+    }
+
+	function changeSlide3(n) {
+      currentIndex = (currentIndex + n + cat3_images.length) % cat3_images.length;
+      showImage3();
+    }
+
+    function showImage() {
+      document.getElementById("modalImage").src = cat_images[currentIndex];
+    }
+
+	function showImage1() {
+      document.getElementById("modalImage1").src = cat1_images[currentIndex];
+    }
+
+	function showImage2() {
+      document.getElementById("modalImage2").src = cat2_images[currentIndex];
+    }
+
+	function showImage3() {
+      document.getElementById("modalImage3").src = cat3_images[currentIndex];
+    }
+
+
+    // Close modal on outside click
+    window.onclick = function(event) {
+      if (event.target == document.getElementById("myModal")) {
+        closeModal();
+      }
+    }
+</script>
+
+</body>
+</html>

@@ -1,17 +1,48 @@
-// get current url without domain
 
-const currentPath = window.location.pathname;
+    
+    const normalizePath =(path) => {
+        //remove query and hash
+        path = path.split('?')[0].split('#')[0];
 
-//get all links
+        //remove trailing slash
+        path = path.replace(/\/$/, '');
 
-const navLinks = document.querySelectorAll("#navLinks a");
+        return path === '' ? '/' : path;
 
-navLinks.forEach(link => {
-
-    console.log(currentPath)
-    if(link.getAttribute('href') === currentPath) {
-        link.classList.add('active')
     }
-})
+
+    const currentPath = normalizePath(window.location.pathname);
+
+    
+    const navLinks = document.querySelectorAll("#navLinks a");
+    console.log(navLinks,"***************")
+
+    
+    navLinks.forEach(link => {
+        const linkPath = normalizePath(link.pathname);
+        console.log("Checking...", { currentPath, linkPath, classes: [...link.classList] });
+
+        if (linkPath === currentPath) {
+            link.classList.add('active');
+        }
+    });
+
+
+
+// // get current url without domain
+
+// const currentPath = window.location.pathname;
+
+// //get all links
+
+// const navLinks = document.querySelectorAll("#navLinks a");
+
+// navLinks.forEach(link => {
+
+//     console.log("Am here....",currentPath,link.classList)
+//     if(link.getAttribute('href') === currentPath) {
+//         link.classList.add('active')
+//     }
+// })
 
 

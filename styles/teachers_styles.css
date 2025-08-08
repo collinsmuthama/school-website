@@ -281,7 +281,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	width: 1500px;
+	width: 1800px;
 	height: 100px;
 	background: #FFFFFF;
 	z-index: 10;
@@ -379,6 +379,11 @@ section
 {
 	color: red;
 }
+.main_nav_item a.active{
+	border-bottom: 3px solid #006400;
+	
+}
+
 
 /*********************************
 3.3 Header Side

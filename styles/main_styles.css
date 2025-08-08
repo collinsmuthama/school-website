@@ -288,7 +288,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	width: 1500px;
+	width: 1800px;
 	height: 104px;
 	background: #FFFFFF;
 	z-index: 10;
@@ -716,7 +716,7 @@ section
 }
 .hero_slide_content
 {
-	max-width: 80%;
+	max-width: 100%;
 	-webkit-transform: translateY(30px);
 	-moz-transform: translateY(30px);
 	-ms-transform: translateY(30px);
@@ -725,7 +725,7 @@ section
 }
 .hero_slide_content h1
 {
-	font-size: 72px;
+	font-size: 52px;
 	font-weight: 400;
 	color: #FFFFFF;
 }
